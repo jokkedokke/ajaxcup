@@ -1,6 +1,8 @@
-def job = "Build ajax cup"
 job {
-  name job
+  name 'build-ajaxcup'
+  scm {
+    git('git://github.com/jokkedokke/ajaxcup.git')
+  }
   steps {
     executeShell("Echo foobar")
   }
