@@ -3,6 +3,6 @@ job('build-ajaxcup'){
     git('git://github.com/jokkedokke/ajaxcup.git')
   }
   steps {
-    executeShell("Echo foobar")
+    shell("Echo foobar")
   }
 }
