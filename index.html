@@ -36,6 +36,15 @@
 
 <body id="page-top">
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=113749798670247";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -95,7 +104,7 @@
     <section class="bg-primary" id="Yleisinfo">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center" style="text-align: justify;">
+                <div class="col-lg-7 col-lg-offset-1 text-center" style="text-align: justify;">
                     <h2 class="section-heading">Ajax cup 2016</h2>
                     <hr class="light">
                     <p class="text-faded">Järjestyksessään kolmas Ajax-Cup tullaan järjestämään kesäkuussa 2016 Kempeleessä paikallisen junioriseuran Ajax Sarkkirannan toimesta. 
@@ -103,6 +112,9 @@
                     <p class="text-faded">Pelit pelataan kolmella sarjatasolla: Valioliigassa, Veikkausliigassa ja Ykkösliigassa. Jaottelulla pyritään mahdollistamaan kaikille osallistuville joukkueille tasaisia, kehittäviä pelejä.
                     <p class="text-faded">Osallistumismaksu Valioliigaan ja Veikkausliigaan on 270€, ja Ykkösliigaan 170€.
                     <p class="text-faded">Aikaisempina vuosina Kuopion Palloseuran juniorit ovat valloittaneet Valioliigan voiton. 2014 kaatui loppuottelussa rangaistuspotkukisan jälkeen SJK, ja 2015 kaatui finaalissa OLS. Miten käy Ajax cupissa vuonna 2016?</p>
+                </div>
+                <div class="col-lg-4">
+                    <div class="fb-page" data-href="https://www.facebook.com/ajaxcup/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/ajaxcup/"><a href="https://www.facebook.com/ajaxcup/">Ajax-cup</a></blockquote></div></div>
                 </div>
             </div>
         </div>
@@ -357,6 +369,8 @@
         }
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+
+
 
 </body>
 
